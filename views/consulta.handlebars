@@ -85,8 +85,7 @@
                         &nbsp;
                     </div>
                 </div>
-                {{#each conteudo}}
-                    {{#dataValues}}
+                {{#each data}}
                     <div class="row">
                         <div class="col">
                             {{nome}}
@@ -108,7 +107,6 @@
                             <button type="button" class="btn btn-primary"><a href="/excluir/{{id}}" style="color:inherit">Excluir</a></button>
                         </div>
                     </div>
-                    {{/dataValues}}
                 {{/each}}
             </div>
             </p>
